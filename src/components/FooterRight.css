@@ -1,0 +1,73 @@
+
+.footer-right {
+  position: absolute; /* Đặt footer-right ở vị trí tuyệt đối trong video card */
+  z-index: 100;
+  color: #fff;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  bottom: 0;
+  right: 0;
+}
+
+.sidebar-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sidebar-icon .userprofile {
+  border-radius: 50%;
+  border: #fff 2px solid;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.sidebar-icon .useradd {
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+
+.sidebar-icon p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.record {
+  animation: spinTheRecord infinite 5s linear;
+  filter: invert(1);
+}
+
+.record img {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #b3afaf;
+}
+
+@keyframes spinTheRecord {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
